@@ -1,0 +1,32 @@
+{
+    "name": "grayphp/helpers",
+    "description": "core php helper functions.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["php helper", "php-helper", "php", "extended", "helper",
+        "helpers", "function", "functions", "files", "directories","arrays",
+        "JSON","MySQL","URL","HTTP","numbers","characters"],
+        "homepage": "https://github.com/grayphp/helper-functions",
+        "authors": [
+            {
+                "name": "sharif",
+                "email": "developersharif@yahoo.com"
+            }
+        ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Grayphp\\Helpers\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0|^9.0"
+    },
+
+    "minimum-stability": "stable",
+    "require": {
+        "php": "*"
+    }
+}
