@@ -3,11 +3,11 @@
 /**
  * Helper class that provides easy access to useful php array functions.
  *
- * @author      developersharif <developersharif@yahoo.com>
+ * @author      clausnz||developersharif <developersharif@yahoo.com>
  * @version     1.0
- * @link        https://github.com/grayphp/helpers
+ * @link        https://github.com/clausnz/php-helpers
  * @license     MIT
- *
+ * 
  */
 
 namespace Grayphp\Helpers\ArrayHelper;
