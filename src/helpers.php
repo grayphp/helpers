@@ -133,6 +133,9 @@ if (!function_exists('validate_captcha')) {
      */
     function validate_captcha($userInput)
     {
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
         if (isset($_SESSION['phrase']) && PhraseBuilder::comparePhrases($_SESSION['phrase'], $userInput)) {
             return true;
             unset($_SESSION['phrase']);
